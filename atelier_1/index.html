@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="scr.js"></script> 
+    <title>Login</title>
+</head>
+<body>
+        <div id="dg" >
+            <h2>Login</h2>
+            <input type="text" id="name" placeholder="Nom"><br>
+
+            <input type="password" id="password" placeholder="Password"><br>
+            <div id="afd">
+                <label>Afficher Les villes</label>
+            <input type="radio" id="oui" name="grp1" value="oui" onchange="Aff_div()" checked ><label for="oui" >oui</label>
+            <input type="radio" id="non" name="grp1" value="non" onchange="Aff_div()"><label for="non" >non</label>
+            </div>
+            <div id="d1">
+                <label style="font-size: large;">Choisir une ville</label>
+                <select name="villes" id="villes">
+                    <option value="select" id="v0">--Select--</option>
+                    <option value="Rabat" id="v1">Rabat</option>
+                    <option value="Casablanca" id="v2">Casablanca</option>
+                    <option value="Beni Mellal" id="v3">Beni Mellal</option>
+                </select>
+            </div>
+            <input type="button" value="Envoyer" id="btnvalider" onclick="valider()">
+            <div id="msg"></div>
+        </div>
+</body>
+</html>
