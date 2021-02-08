@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="controles.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Atelier 2</title>
+</head>
+<body onload="Afflocalstorage()">
+    <form action="" class="dg">
+        <h1>Formulaire</h1>
+        <input type="text" id="nom" placeholder="Nom"><br>
+        <input type="text" id="residence" placeholder="Résidence"><br>
+        <input type="email" id="email" placeholder="Email"><br>
+        <input type="text" id="age" placeholder="Age"><br>
+        <label class="lp">Langue Parlée : </label>
+        <input type="checkbox"  id="fr" value="Français" class="checks">
+        <label for="fr">FR</label>
+        <input type="checkbox"  id="ar" value="Arab" class="checks">
+        <label for="ar">AR</label>
+        <input type="checkbox"  id="eng" value="Englais" class="checks">
+        <label for="eng">ENG</label><br>
+            <select  id="prof">
+                 <option value="0" id="0">Selectionner une Profession</option>
+            </select><br>
+        <input type="button" value="Envoyer" id="btnEnv" onclick="valider()">
+        <input type="button" value="Interrompre" id="btnInterr">
+    </form>
+    <div class="dg" id="af">
+        <div id="d2" class="content"></div>
+        <div id="d1" class="content"></div>
+    </div>
+</body>
+</html>

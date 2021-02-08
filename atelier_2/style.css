@@ -1,0 +1,107 @@
+body
+{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-image: url(bck.png);
+}
+#af
+{
+    left: 65%;
+    width: 400px;
+    height: 400px;
+}
+.dg
+{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background-color: #01142F;
+    text-align: center;
+    border-radius:3%;
+
+}
+.dg h1
+{
+    margin: 10px auto;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.dg input[type="text"],[type="password"],[type="email"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    border: 2px solid #17F1D7;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.dg input[type="text"]:focus,[type="password"]:focus,[type="email"]:focus
+{
+    width: 260px;
+    border-color:#00848C ;
+}
+.dg input[type="button"]
+{
+    border: 0;
+    display: block;
+    background: transparent;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-weight: 700;
+    cursor: pointer;
+}
+.dg input[type="button"]:hover
+{
+    background: green;
+}
+
+#prof
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    border: 2px solid #17F1D7;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin: 20px auto 0 auto; 
+}
+#d1
+{
+    display: none;
+}
+.content
+{
+    text-align: start;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #00848C;
+    font-weight: 150;
+}
